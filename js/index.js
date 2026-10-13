@@ -4,6 +4,7 @@ const dpr = window.devicePixelRatio || 1
 
 canvas.width = 1024 * dpr
 canvas.height = 576 * dpr
+c.imageSmoothingEnabled = false
 
 const MAP_ROWS = 28
 const MAP_COLS = 28
